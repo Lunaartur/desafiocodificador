@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 01</title>
+    <link rel="stylesheet" href="./css/teste3.css">
+    <script src="./assets/teste.js"></script>
+
+</head>
+<body id="codificador_body">
+    <header>
+        <div>
+            <h1 class="title">Codificador</h1>
+        </div>
+    </header>
+    <main>
+        <div>
+            <input type="text" min="1" max="10" class="inserir" id="caracteres">
+        </div>
+        <div>
+            <button onclick="codificarTexto()" class="container__botao codifica" > <img src="./imagens/cadeado.png" alt="">Codificar</button>
+        </div>
+        <div>
+            <button onclick="limparProblemas()" class="container__botao limpar"> <img class="vassoura" src="./imagens/vassoura.png" alt="">Limpar</button>
+        </div>
+        <div>
+            <button  id="undo" disabled onclick="undoCodificador()" class="container__botao limpar"> <img class="voltar" src="./imagens/voltar2.png" alt="">Undo</button>
+        </div>
+        <div class="final">
+            <h2 class="teste" id="result">Resultado</h2>
+            <button class="btnCopiar" onclick="copyText()"></button>
+        </div>
+        
+    </main>
+    <footer>
+        <p class="nome">Desenvolvido por Arthur Luna =)</p>
+    </footer>
+</body>
+</html>

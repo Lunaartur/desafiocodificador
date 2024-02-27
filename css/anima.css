@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Single+Day&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --fundo_01: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+
+    --fundo_02: linear-gradient( 173.1deg,  rgba(226,66,249,0.94) 10.2%, rgba(79,147,249,1) 77.3% );
+
+
+    --fundo_03: linear-gradient( 58.2deg,  rgba(40,91,212,0.73) -3%, rgba(171,53,163,0.45) 49.3%, rgba(255,204,112,0.37) 97.7% );
+    
+}
+
+body {
+    background-image: var(--fundo_03);
+    font-family: Arial, sans-serif;
+    color: #f6f6f6;
+    text-align: center;
+}
+
+header {
+    padding: 0.5em;
+    border-bottom: 0.5em;
+}
+
+.title {
+    font-size: 4em;
+    margin-top: 2em;
+    font-family: "Single Day", cursive;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+
+input {
+    text-align: center;
+    font-size: 2em;
+    color: black;
+    border: solid;
+    border-radius: 2px;
+    border-color: black;
+    margin-bottom: 1em;
+    margin: 2em 1em;
+    width: 4em;
+    padding: 10px 0px;
+}
+
+.btns{
+    display: flex;
+}
+
+
+.container__botao {
+    color: white;
+    font-weight: 100em;
+    padding: 1em 3em;
+    font-size: 1.2em;
+    font-family: "Single Day", cursive;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5em;
+    margin: 0.5em;
+    background: rgb(139, 100, 203);
+    background: linear-gradient(90deg, rgba(139, 100, 203, 1) 15%, rgba(57, 121, 217, 1) 49%, rgba(86, 218, 242, 1) 100%);
+}
+
+.container__botao:hover {
+    background: rgb(139, 100, 203);
+    background: linear-gradient(90deg, rgba(139, 100, 203, 1) 15%, rgba(57, 121, 217, 1) 49%, rgba(86, 218, 242, 1) 100%);
+    
+}
+
+
+.nome{
+    padding-top: 1em;
+    text-shadow: #f6f6f6;
+    text-decoration-line: underline;
+}
